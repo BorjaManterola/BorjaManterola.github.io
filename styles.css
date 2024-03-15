@@ -1,11 +1,8 @@
-#cuerpo-PersonalPage 
-{
-    font-family: Montserrat;
+#cuerpo-PersonalPage {
+    font-family: Arial, Helvetica, sans-serif, Times, serif, sans-serif;
     background-color: aquamarine;
 }
-#tabla-habilidades 
-{
-    font-family: Pacifico;
+#tabla-habilidades {
     background-color: green;
     color: white;
     margin-top: 20px;
@@ -13,33 +10,26 @@
     border-collapse: separate;
     border-spacing: 2px;
 }
-#tabla-habilidades .table-header 
-{
+#tabla-habilidades .table-header {
     font-size: 25px;
 }
-#texto-cambiar 
-{
+#texto-cambiar {
     color: deeppink;
     font-weight: bold;
 }
-td 
-{
+td {
     border: 1px solid black;
     padding: 2px;
 }
-.pink 
-{
+.pink {
     color: white;
 }
-.amarillo 
-{
+.amarillo {
     color: yellow;
 }
-.deeppink 
-{
+.deeppink {
     color: deeppink;
 }
-.darkslateblue 
-{
+.darkslateblue {
     color: darkslateblue;
 }
