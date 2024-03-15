@@ -1,8 +1,9 @@
 #cuerpo-PersonalPage {
-    font-family: cursive, sans-serif;
+    font-family: Montserrat;
     background-color: aquamarine;
 }
 #tabla-habilidades {
+    font-family: Pacifico;
     background-color: green;
     color: white;
     margin-top: 20px;
