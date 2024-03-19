@@ -1,8 +1,8 @@
-#cuerpo-PersonalPage {
-    font-family: Arial, Helvetica, sans-serif, Times, serif, sans-serif;
+.cuerpo {
     background-color: aquamarine;
 }
-#tabla-habilidades {
+.tabla-habilidades {
+    font-family: Arial, Helvetica, sans-serif, Times, serif, sans-serif;
     background-color: green;
     color: white;
     margin-top: 20px;
@@ -10,21 +10,24 @@
     border-collapse: separate;
     border-spacing: 2px;
 }
-#tabla-habilidades .table-header {
+.table-header {
     font-size: 25px;
 }
 #texto-cambiar {
+    margin-top: 5px;
     color: deeppink;
     font-weight: bold;
 }
-td {
+.col-md-1 {
     border: 1px solid black;
     padding: 2px;
 }
-.pink {
+.blanco {
+    background-color: green;
     color: white;
 }
 .amarillo {
+    background-color: green;
     color: yellow;
 }
 .deeppink {
