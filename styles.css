@@ -13,10 +13,10 @@ h1 {
     font-size: 150%;
     background-color: beige;
     color: darkslateblue;
-}
-.col-md-4, .col-5 {
     border: 1px solid black;
     padding: 0.25%;
+}
+.col-md-4 {
     font-size: 200%;
 }
 .col-xl-1 {
