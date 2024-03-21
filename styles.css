@@ -16,19 +16,18 @@ h1 {
 }
 .blanco {
     font-size: 150%;
-    background-color: green;
-    color: white;
+    background-color: beige;
 }
 .amarillo {
     font-size: 150%;
-    background-color: green;
-    color: yellow;
+    background-color: beige;
 }
 .col-xl-1 {
     font-size: 100%;
 }
 .table-header {
     font-size: 200%;
+    font-weight: bold;
 }
 .deeppink {
     color: deeppink;
