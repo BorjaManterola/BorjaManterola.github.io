@@ -51,3 +51,8 @@ h1 {
 .container {
     margin-bottom: 15px;
 }
+.badge {
+    color: darkslateblue;
+    border: 1px solid darkslateblue;
+    margin-left: 2%;
+}
