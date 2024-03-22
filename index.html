@@ -9,29 +9,36 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="container cuerpo">
-
     <h1 class="deeppink">Borja Manterola's Personal Page</h1>
     <div class="container">
-        <div class="card col-xl-5 col-md-9 col-10">
-            <div class="card-body">
-                <h5 class="card-title">Welcome to my Personal Page</h5>
-                <h6 class="card-subtitle mb-2">Who is viewing this website?</h6>
-                <div class="row">
-                    <div class="col-xl-8 col-md-7 col-8">
-                        <input type="text" id="texto-ingresado" class="form-control">
+        <div class="row">
+            <div class="card col-xl-5 col-md-7 col-12">
+                <div class="card-body">
+                    <h5 class="card-title">Welcome to my Personal Page</h5>
+                    <h6 class="card-subtitle mb-2">Who is viewing this website?</h6>
+                    <div class="row">
+                        <div class="col-xl-8 col-md-7 col-8">
+                            <input type="text" id="texto-ingresado" class="form-control">
+                        </div>
+                        <div class="col-xl-4 col-md-5 col-4">
+                            <button type="button" class="btn" onclick="cambiarFrase()">Enter</button>
+                        </div>
                     </div>
-                    <div class="col-xl-4 col-md-5 col-4">
-                        <button type="button" class="btn" onclick="cambiarFrase()">Enter</button>
-                    </div>
+                    <p id="texto-cambiar" class="card-text">°</p>
                 </div>
-                <p id="texto-cambiar" class="card-text">°</p>
+            </div>
+            <div class="dropdown col-xl-4 col-md-7 col-10">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                My Personal Summary
+                </button>
+                <li class="dropdown-menu">
+                    <p class="darkslateblue">Graduated in 2020 from Colegio del Verbo Divino in Las Condes, where I developed great skills that allowed me to quickly adapt to university life. Currently, I am doing very well in my studies and plan to improve even more!</p>
+                </li>
             </div>
         </div>
-    </div>
         <ul>
             <li class="darkslateblue"><h4>Computer Science 2021</h4></li>
-            <li class="darkslateblue"><h4>Github repository: <a href="https://github.com/BorjaManterola/BorjaManterola.github.io.git" class="deeppink">BorjaManterola</a><span class="badge"><-Click</span></h4></li>
-            <li class="darkslateblue"><h4>Graduated in 2020 from Colegio del Verbo Divino in Las Condes, where I developed great skills that allowed me to quickly adapt to university life. Currently, I am doing very well in my studies and plan to improve even more!</h4></li>
+            <li class="darkslateblue"><h4>Github repository: <a href="https://github.com/BorjaManterola/BorjaManterola.github.io.git" class="deeppink">BorjaManterola</a></h4></li>
         </ul>
     <div class="container">
             <div class="row">
